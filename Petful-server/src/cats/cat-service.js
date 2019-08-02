@@ -1,6 +1,7 @@
 const { Queue } = require('../queue');
 
 let cats = new Queue();
+let adoptedCats = [];
 
 cats.enqueue({
   image:
@@ -28,8 +29,11 @@ const CatService = {
     return this.cats;
   },
   adoptCat() {
-    cats.dequeue();
+    adoptedCats.push(cats.dequeue());
     return cats;
+  }, 
+  getAdoptedCats() {
+    return adoptedCats;
   }
 };
 
