@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "keywords": [],
+  "engines": {
+    "node": "11.14.0"
+  },
   "author": "Alex Cumbo",
   "license": "UNLICENSED",
-  "main": "server.js",
+  "main": "src/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon src/server.js"
@@ -15,8 +18,6 @@
     "express": "^4.17.1",
     "faker": "^4.1.0",
     "nodemon": "^1.19.1"
-  },
-  "engines": {
-      "node": "11.14.0"
-    }
+  }
+
 }
