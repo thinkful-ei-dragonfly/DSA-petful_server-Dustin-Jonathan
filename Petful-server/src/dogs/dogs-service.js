@@ -26,6 +26,10 @@ const DogService = {
   dogs,
 
   getDogs() { return this.dogs; },
+  adoptDog(){
+    dogs.dequeue()
+    return dogs
+  }
 };
 
 

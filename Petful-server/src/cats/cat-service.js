@@ -25,6 +25,10 @@ const CatService = {
   cats,
   
   getCats() {return this.cats;},
+  adoptCat(){
+    cats.dequeue()
+    return cats
+  }
 };
 
 
