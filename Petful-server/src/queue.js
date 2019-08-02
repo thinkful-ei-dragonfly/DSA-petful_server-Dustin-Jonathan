@@ -40,7 +40,7 @@ class Queue {
 function displayQueue(queue) {
   let currentNode = queue.first;
   while (currentNode !== null) {
-    console.log(currentNode.data);
+
     currentNode = currentNode.next;
   }
 }

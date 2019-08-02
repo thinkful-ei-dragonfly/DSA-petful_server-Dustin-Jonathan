@@ -5,6 +5,7 @@ const DogsRouter = require('./dogs/DogsRouter');
 const AdoptersRouter = require('./adopters/AdoptersRouter');
 const AdoptedCatsRouter = require('./cats/AdoptedCatsRouter');
 const AdoptedDogsRouter = require('./dogs/AdoptedDogsRouter');
+const {PORT} = require('./config');
 const app = express();
 app.use(cors());
 
@@ -31,6 +32,6 @@ app.use(function (err, req, res, next) {
   });
 });
 
-app.listen(8080,()=>{
+app.listen(PORT,()=>{
   console.log('Serving on 8080');
 });
