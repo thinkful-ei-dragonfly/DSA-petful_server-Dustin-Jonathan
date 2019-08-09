@@ -14,12 +14,36 @@ cats.enqueue({
 });
 
 cats.enqueue({
-  image: '',
-  name: 'Miss Prissy',
-  gender: 'Female',
+  image: 'https://images.pexels.com/photos/208984/pexels-photo-208984.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+  name: 'Thor',
+  gender: 'Male',
   age: 4,
   breed: 'Domestic Short-hair',
-  story: 'Owner could no longer take care of her'
+  story: 'Escaped from cat prison'
+});
+cats.enqueue({
+  image: 'https://images.pexels.com/photos/177809/pexels-photo-177809.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+  name: 'Allie',
+  gender: 'Female',
+  age: 5,
+  breed: 'Domestic Short-hair',
+  story: 'Loves herself doesn\'t care about people'
+});
+cats.enqueue({
+  image: 'https://images.pexels.com/photos/209037/pexels-photo-209037.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+  name: 'Ginger',
+  gender: 'Male',
+  age: 3,
+  breed: 'Domestic Short-hair',
+  story: 'Found in an ally'
+});
+cats.enqueue({
+  image: 'https://images.pexels.com/photos/162318/cheetahs-cubs-two-together-162318.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+  name: 'Thelmo and Lightning',
+  gender: 'Females',
+  age: 4,
+  breed: 'Twin Spotted speed cats',
+  story: 'Might be Cheetahs'
 });
 
 const CatService = {
