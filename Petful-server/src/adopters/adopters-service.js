@@ -2,10 +2,6 @@ const { Queue } = require('../queue');
 
 let adopters = new Queue();
 
-adopters.enqueue('Harry Potter');
-
-adopters.enqueue('Severis Snape');
-
 const AdoptersService = {
   adopters,
 
